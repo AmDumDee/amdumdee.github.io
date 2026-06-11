@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>AmDumDee — Executive Threat Intelligence</title>
+<meta name="description" content="Cybersecurity threat intelligence translated into board-level decisions. For CISOs, CTOs, and board members. No CVE scores, no vendor pitches, no jargon.">
+<meta name="author" content="Am Dum Dee">
+<meta name="keywords" content="threat intelligence, executive cybersecurity, CISO, board advisory, cyber risk, business impact">
+<meta property="og:title" content="AmDumDee — Executive Threat Intelligence">
+<meta property="og:description" content="Cybersecurity translated for the people who sign the checks. Board-level threat intelligence, every source cited.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://amdumdee.com">
+<link rel="alternate" type="text/plain" title="AI-readable summary" href="/llms.txt">
+<link rel="sitemap" type="application/xml" href="/sitemap.xml">
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{
+  --bg:#fbfaf8;--bg2:#ffffff;--bg3:#f1efea;
+  --txt:#16191d;--txt2:#444b54;--txt3:#838a93;
+  --border:#e4e0d8;--acc:#b3261e;--acc2:#7a1a15;--acc-bg:#fdeceb;
+  --serif:Georgia,'Times New Roman',serif;
+  --sans:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;
+  --mono:'SFMono-Regular',Consolas,monospace;
+  --max:980px;
+}
+@media(prefers-color-scheme:dark){
+  :root{
+    --bg:#101113;--bg2:#16181b;--bg3:#1c1f23;
+    --txt:#e6e9ed;--txt2:#a8b0ba;--txt3:#6b7280;
+    --border:#2a2e34;--acc:#f87171;--acc2:#fca5a5;--acc-bg:#2a1514;
+  }
+}
+html,body{background:var(--bg);color:var(--txt);font-family:var(--sans);
+  -webkit-font-smoothing:antialiased;line-height:1.5}
+a{color:var(--acc);text-decoration:none}
+a:hover{text-decoration:underline}
+.wrap{max-width:var(--max);margin:0 auto;padding:0 1.5rem}
+
+/* Header / nav */
+header.top{border-bottom:1px solid var(--border);position:sticky;top:0;
+  background:color-mix(in srgb,var(--bg) 92%,transparent);backdrop-filter:blur(8px);z-index:10}
+.top-inner{display:flex;align-items:center;justify-content:space-between;
+  padding:1rem 0}
+.brand{font-weight:800;font-size:17px;letter-spacing:-.02em;color:var(--txt)}
+.brand span{color:var(--acc)}
+.top-links{display:flex;gap:1.4rem;font-size:13.5px}
+.top-links a{color:var(--txt2)}
+.top-links a:hover{color:var(--acc)}
+
+/* Hero */
+.hero{padding:5rem 0 3.5rem;border-bottom:1px solid var(--border)}
+.eyebrow{font-size:12px;font-weight:700;text-transform:uppercase;letter-spacing:.12em;
+  color:var(--acc);margin-bottom:1.2rem}
+.hero h1{font-family:var(--serif);font-weight:400;font-size:clamp(2.1rem,5vw,3.4rem);
+  line-height:1.1;letter-spacing:-.02em;color:var(--txt);max-width:16ch;margin-bottom:1.4rem}
+.hero .lede{font-family:var(--serif);font-size:clamp(1.05rem,2.2vw,1.3rem);line-height:1.6;
+  color:var(--txt2);max-width:54ch;margin-bottom:2.2rem}
+.cta-row{display:flex;gap:.9rem;flex-wrap:wrap}
+.btn{display:inline-block;padding:.8rem 1.6rem;border-radius:8px;font-size:14.5px;
+  font-weight:600;cursor:pointer;border:1px solid transparent;font-family:var(--sans)}
+.btn-primary{background:var(--acc);color:#fff}
+.btn-primary:hover{background:var(--acc2);text-decoration:none}
+.btn-ghost{background:transparent;border-color:var(--border);color:var(--txt)}
+.btn-ghost:hover{border-color:var(--acc);color:var(--acc);text-decoration:none}
+
+/* Positioning statement */
+.statement{padding:3.5rem 0;border-bottom:1px solid var(--border)}
+.statement p{font-family:var(--serif);font-size:clamp(1.2rem,2.6vw,1.6rem);line-height:1.55;
+  color:var(--txt);max-width:32ch}
+.statement .accent{color:var(--acc)}
+
+/* Sections grid */
+.sections{padding:3.5rem 0}
+.sec-label{font-size:12px;font-weight:700;text-transform:uppercase;letter-spacing:.1em;
+  color:var(--txt3);margin-bottom:1.6rem}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:1.2rem}
+.card{display:block;background:var(--bg2);border:1px solid var(--border);border-radius:14px;
+  padding:1.6rem;transition:border-color .15s,transform .15s}
+.card:hover{border-color:var(--acc);transform:translateY(-2px);text-decoration:none}
+.card.live{cursor:pointer}
+.card.soon{opacity:.62}
+.card-top{display:flex;align-items:center;justify-content:space-between;margin-bottom:.9rem}
+.card-tag{font-size:10.5px;font-weight:700;text-transform:uppercase;letter-spacing:.08em;
+  padding:3px 9px;border-radius:20px}
+.tag-live{background:var(--acc-bg);color:var(--acc)}
+.tag-soon{background:var(--bg3);color:var(--txt3)}
+.card h3{font-family:var(--serif);font-size:1.4rem;font-weight:400;color:var(--txt);
+  margin-bottom:.5rem;letter-spacing:-.01em}
+.card p{font-size:14px;line-height:1.6;color:var(--txt2);margin-bottom:1rem}
+.card .go{font-size:13.5px;font-weight:600;color:var(--acc)}
+.card-stat{font-family:var(--mono);font-size:11.5px;color:var(--txt3);margin-top:.4rem}
+
+/* About strip */
+.about{padding:3.5rem 0;border-top:1px solid var(--border)}
+.about h2{font-family:var(--serif);font-weight:400;font-size:1.8rem;margin-bottom:1.2rem;
+  color:var(--txt)}
+.about p{font-size:15.5px;line-height:1.75;color:var(--txt2);max-width:60ch;margin-bottom:1rem}
+.about .pubs{list-style:none;margin:1.2rem 0;display:flex;flex-direction:column;gap:.5rem}
+.about .pubs li{font-size:15px;color:var(--txt2);display:flex;gap:.6rem}
+.about .pubs li::before{content:'\2192';color:var(--acc);flex-shrink:0}
+
+/* Footer */
+footer{border-top:1px solid var(--border);padding:2.5rem 0;margin-top:1rem}
+.foot-inner{display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:1rem}
+.foot-links{display:flex;gap:1.3rem;font-size:13px}
+.foot-links a{color:var(--txt3)}
+.foot-copy{font-size:12.5px;color:var(--txt3)}
+
+@media(max-width:600px){
+  .hero{padding:3.2rem 0 2.5rem}
+  .top-links{gap:1rem;font-size:12.5px}
+}
+</style>
+</head>
+<body>
+
+<header class="top">
+  <div class="wrap top-inner">
+    <div class="brand">Am<span>Dum</span>Dee</div>
+    <nav class="top-links">
+      <a href="/threat-intel/">Threat Intel</a>
+      <a href="#about">About</a>
+      <a href="https://linkedin.com/in/amdumdee" target="_blank">LinkedIn</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="hero">
+    <div class="wrap">
+      <div class="eyebrow">Executive Threat Intelligence</div>
+      <h1>Cyber risk, translated into board decisions.</h1>
+      <p class="lede">Most cybersecurity content is written for engineers. This is written for the people who sign the checks — CISOs, CTOs, and board members. No CVE scores. No vendor pitches. No jargon.</p>
+      <div class="cta-row">
+        <a class="btn btn-primary" href="/threat-intel/">Read the latest intelligence →</a>
+        <a class="btn btn-ghost" href="#about">What this is</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="statement">
+    <div class="wrap">
+      <p>Every analysis asks one question: <span class="accent">what does this mean for your revenue, your liability, and your board's next conversation?</span></p>
+    </div>
+  </section>
+
+  <section class="sections">
+    <div class="wrap">
+      <div class="sec-label">Publications</div>
+      <div class="grid">
+
+        <a class="card live" href="/threat-intel/">
+          <div class="card-top">
+            <span class="card-tag tag-live">Live · Daily</span>
+          </div>
+          <h3>Global Threat Intelligence</h3>
+          <p>Daily analysis of the most significant threats, translated into strategic decisions for executives. Every report sourced and traceable.</p>
+          <span class="go">Enter the archive →</span>
+          <div class="card-stat">169+ reports · updated daily</div>
+        </a>
+
+        <div class="card soon">
+          <div class="card-top">
+            <span class="card-tag tag-soon">Coming soon</span>
+          </div>
+          <h3>Rollups</h3>
+          <p>Monthly and quarterly syntheses — the patterns and shifts behind the daily reports, distilled into a single board-ready read.</p>
+          <span class="go" style="color:var(--txt3)">In progress</span>
+        </div>
+
+        <div class="card soon">
+          <div class="card-top">
+            <span class="card-tag tag-soon">Planned</span>
+          </div>
+          <h3>Briefings</h3>
+          <p>Deeper strategic analysis on the themes that matter most to boards — AI governance, supply chain, resilience economics.</p>
+          <span class="go" style="color:var(--txt3)">Planned</span>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="about" id="about">
+    <div class="wrap">
+      <h2>What this is</h2>
+      <p>A cybersecurity intelligence practice built for the room where budgets are approved, risks are disclosed, and strategy is set. The work sits at the intersection of technical depth and business consequence — shaped by IIT Kanpur systems thinking and over a decade of security practice.</p>
+      <ul class="pubs">
+        <li>Threat intelligence in executive language</li>
+        <li>Board-ready risk framing for current exploits</li>
+        <li>Strategic decisions, not IT task lists</li>
+      </ul>
+      <p>If you're a CISO building board reports, a CTO defending a security budget, or a board member overseeing cyber risk — this is for you.</p>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap foot-inner">
+    <div class="foot-links">
+      <a href="/threat-intel/">Threat Intel</a>
+      <a href="https://github.com/AmDumDee/global-threat-intel" target="_blank">GitHub</a>
+      <a href="https://linkedin.com/in/amdumdee" target="_blank">LinkedIn</a>
+    </div>
+    <div class="foot-copy">© 2026 AmDumDee · Every source cited</div>
+  </div>
+</footer>
+
+</body>
+</html>

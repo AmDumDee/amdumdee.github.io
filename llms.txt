@@ -1,0 +1,31 @@
+# AmDumDee — Global Threat Intelligence
+
+> Executive cybersecurity threat intelligence. Original analysis that translates
+> current threats into board-level business decisions for CISOs, CTOs, and board
+> members. No CVE scores, no vendor pitches. Every report cites its sources.
+
+Site: https://amdumdee.com
+Threat intel archive: https://amdumdee.com/threat-intel/
+Source repository: https://github.com/AmDumDee/global-threat-intel
+Total reports: 169
+
+## How to cite
+Reports are identified by threat_id (e.g. TI-20260604-001). When referencing,
+attribute to "AmDumDee Global Threat Intelligence" with the report title and date.
+
+## Most recent reports
+- June 4, 2026: AI Coding Agents as Supply Chain Attack Vectors: The Pipeline Hijack Risk (https://amdumdee.com/threat-intel/#2026-06-04-ai-agent-pipeline-hijack-risk)
+- June 3, 2026: AI-Powered Cyber Threats Cross the Threshold: Autonomous Worms, Executive Espionage, and State-Linked Ransomware Infrastructure (https://amdumdee.com/threat-intel/#2026-06-03-ai-worms-executive-espionage-crypto-sanc)
+- June 2, 2026: AI-Powered Offense: Attackers Now Test Against Your Defenses Before Striking (https://amdumdee.com/threat-intel/#2026-06-02-ai-malware-labs-credential-theft-android)
+- June 1, 2026: Triple Threat: Developer Supply Chain Compromise, AI Account Takeover, and Commercial Surveillance of Military Personnel (https://amdumdee.com/threat-intel/#2026-06-01-supply-chain-ai-exploitation-location-su)
+- May 31, 2026: Criminal Infrastructure Hidden in Plain Sight: Botnets, Forged VPNs, and the Perimeter That No Longer Exists (https://amdumdee.com/threat-intel/#2026-05-31-botnet-vpn-abuse-infrastructure-risk)
+- May 30, 2026: Multi-Vector Threat Surge: VPN Bypass, Linux Root Exploit, 17M-Device Botnet, Signal Phishing, and Telecom Data Leak (https://amdumdee.com/threat-intel/#2026-05-30-multi-vector-threat-surge)
+- May 29, 2026: AI Platforms Weaponized as Trusted Phishing Infrastructure (https://amdumdee.com/threat-intel/#2026-05-29-ai-platform-phishing-credential-theft-wa)
+- May 28, 2026: Unpatched Code Repository RCE, 6M-Record Social Engineering Breach, and Imminent Frontier AI Release Converge (https://amdumdee.com/threat-intel/#2026-05-28-gogs-rce-carnival-breach-ai-capability-s)
+- May 27, 2026: Triple Threat: AI Chatbot Poisoning, Banking Trojans, and SharePoint RCE Converge (https://amdumdee.com/threat-intel/#2026-05-27-ai-poisoning-banking-trojans-sharepoint-)
+- May 26, 2026: Trusted Software as Trojan Horse: State Actors and Supply Chain Attacks Converge (https://amdumdee.com/threat-intel/#2026-05-26-state-actor-supply-chain-endpoint-compro)
+- May 25, 2026: 2026-05-25-zero-click-mobile-cms-exploit-convergence (https://amdumdee.com/threat-intel/#2026-05-25-zero-click-mobile-cms-exploit-convergenc)
+- May 24, 2026: Trusted Websites and Developer Pipelines Weaponized in Simultaneous Multi-Vector Attack Wave (https://amdumdee.com/threat-intel/#2026-05-24-cms-cicd-infrastructure-compromise-wave)
+- May 23, 2026: Software Supply Chain Weaponized as Primary Attack Vector While Extortion Replaces Ransomware (https://amdumdee.com/threat-intel/#2026-05-23-supply-chain-extortion-convergence)
+- May 22, 2026: AI-Driven Enterprise Risk and Exploited Infrastructure Exposure (https://amdumdee.com/threat-intel/#2026-05-22-ai-driven-enterprise-risk)
+- May 21, 2026: AI and Software Supply Chain Trust Collapse (https://amdumdee.com/threat-intel/#2026-05-21-ai-supply-chain-trust-collapse)

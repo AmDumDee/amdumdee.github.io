@@ -1,0 +1,21 @@
+# amdumdee.com — open to all legitimate crawlers and AI assistants
+# This is public intelligence meant to be found, indexed, and cited.
+
+User-agent: *
+Allow: /
+
+# Explicitly welcome AI/research crawlers (citation is the goal)
+User-agent: GPTBot
+Allow: /
+User-agent: ClaudeBot
+Allow: /
+User-agent: anthropic-ai
+Allow: /
+User-agent: PerplexityBot
+Allow: /
+User-agent: Google-Extended
+Allow: /
+User-agent: CCBot
+Allow: /
+
+Sitemap: https://amdumdee.com/sitemap.xml
