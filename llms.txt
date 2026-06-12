@@ -7,13 +7,14 @@
 Site: https://amdumdee.com
 Threat intel archive: https://amdumdee.com/threat-intel/
 Source repository: https://github.com/AmDumDee/global-threat-intel
-Total reports: 176
+Total reports: 177
 
 ## How to cite
 Reports are identified by threat_id (e.g. TI-20260604-001). When referencing,
 attribute to "AmDumDee Global Threat Intelligence" with the report title and date.
 
 ## Most recent reports
+- June 11, 2026: Cascading Trust Failures: AI Agent Exploitation, Physical Data Loss, and Critical Infrastructure Zero-Days (https://amdumdee.com/threat-intel/#2026-06-11-ai-agent-trust-failures-and-critical-inf)
 - June 10, 2026: Five-Front Escalation: Nation-State Reconnaissance, Supply Chain Weaponization, and Ransomware Market Maturation (https://amdumdee.com/threat-intel/#2026-06-10-multi-vector-nation-state-and-criminal-e)
 - June 9, 2026: Consent Drift: Meta AI Data Expansion and Platform Regulation Precedent Create Enterprise Privacy Governance Gap (https://amdumdee.com/threat-intel/#2026-06-09-meta-ai-data-expansion-privacy-governanc)
 - June 9, 2026: Broken Patch Model: Record Vulnerability Volumes and Unpatched Windows Defender Zero-Day Signal AI-Driven Security Crisis (https://amdumdee.com/threat-intel/#2026-06-09-windows-defender-zero-day-patch-tuesday-)
@@ -28,4 +29,3 @@ attribute to "AmDumDee Global Threat Intelligence" with the report title and dat
 - May 31, 2026: Criminal Infrastructure Hidden in Plain Sight: Botnets, Forged VPNs, and the Perimeter That No Longer Exists (https://amdumdee.com/threat-intel/#2026-05-31-botnet-vpn-abuse-infrastructure-risk)
 - May 30, 2026: Multi-Vector Threat Surge: VPN Bypass, Linux Root Exploit, 17M-Device Botnet, Signal Phishing, and Telecom Data Leak (https://amdumdee.com/threat-intel/#2026-05-30-multi-vector-threat-surge)
 - May 29, 2026: AI Platforms Weaponized as Trusted Phishing Infrastructure (https://amdumdee.com/threat-intel/#2026-05-29-ai-platform-phishing-credential-theft-wa)
-- May 28, 2026: Unpatched Code Repository RCE, 6M-Record Social Engineering Breach, and Imminent Frontier AI Release Converge (https://amdumdee.com/threat-intel/#2026-05-28-gogs-rce-carnival-breach-ai-capability-s)
